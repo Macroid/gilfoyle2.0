@@ -108,3 +108,40 @@ DESCRIPTION
 **date** - prints the time and date
 **echo {arg}** - prints the argument. "echo $PATH" prints directories OS searches to find executable files.
 **pwd** - prints working directory
+**cd** - change directory
+**ls** - list files in directory
+**man {command}** - show manual for command/program
+
+## Redirection
+
+### Program to File
+
+\> - push output to file (ex: *echo hello > hello.txt*)
+< - push file into program (ex: *cat < hello.txt*)
+\>> - append output to file (ex: *echo hello >> hello.txt*)
+
+### Program to Program
+| - output of first program to input of second (ex: *ls -l / | tail -n1*)
+
+
+# Github setup
+
+1) I have an existing account (Macroid)
+2) Need to create a personal access token
+	1) Ensure verified email
+	2) Work through PAT setup
+3) Clone over HTTPS using PAT
+4) Push origin from root with PAT
+5) Kill off DS_Store:
+
+```
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+
+git commit -m "Get rid of frickin' DS_Store"
+
+git push
+```
+
+
+
+
