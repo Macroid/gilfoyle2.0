@@ -2,9 +2,9 @@
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
 | **1 h Read**        | Work through LinuxCommand.org “Learning the Shell – Lesson 2: Navigation.” ([linuxcommand.org](https://linuxcommand.org/lc3_lts0020.php?utm_source=chatgpt.com "Learning the shell - Lesson 2: Navigation - LinuxCommand.org"))                                | ✔    |
 | **1 h Lab**         | In your VM create a nested directory tree (`~/play/alpha/beta`) and practice `pwd`, absolute vs relative `cd`, and listing variants (`ls -alh`, `ls -R`). Record outputs with `script` or copy-paste into notes.                                               | ✔    |
-| **1 h Reference**   | Build a personal cheat-sheet for navigation commands, annotating options with **Devhints bash cheat-sheet** examples. ([linuxcommand.org](https://linuxcommand.org/?utm_source=chatgpt.com "LinuxCommand.org: Learn The Linux Command Line. Write Shell ...")) |      |
+| **1 h Reference**   | Build a personal cheat-sheet for navigation commands, annotating options with **Devhints bash cheat-sheet** examples. ([linuxcommand.org](https://linuxcommand.org/?utm_source=chatgpt.com "LinuxCommand.org: Learn The Linux Command Line. Write Shell ...")) | ✔    |
 | **1.5 h Challenge** | Start OverTheWire Bandit levels 0–3 (focus: login via SSH, reading files, moving between levels). ([overthewire.org](https://overthewire.org/wargames/bandit/?utm_source=chatgpt.com "Bandit - OverTheWire"))                                                  | ✔    |
-| **0.5 h Commit**    | Push updated notes + `navigation_cheats.md` to the repo.                                                                                                                                                                                                       |      |
+| **0.5 h Commit**    | Push updated notes + `navigation_cheats.md` to the repo.                                                                                                                                                                                                       | ✔    |
 
 # Lab
 
